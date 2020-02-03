@@ -1,0 +1,12 @@
+Assignment Instructions
+You have been given a sample program in C++ that shoots balls from a cannon toward a target. If the ball passes through the target, the target changes color and begins to move side to side. Each subsequent hit on the target results in a color change of the target and for the speed of the target to increase. In this assignment you have selected groups to work in and a language to convert the code to. This project consists of a number of objects that you should implement (i.e., Vector3d, Ball, and Target). You should also convert any needed helper functions and the main/driver program. 
+
+
+As this is a longer term project, you will need to become familiar with the language you selected and ensure that you can work in that language. 
+
+
+The first part of this assignment will be to convert Vector3d from C++ to the language you selected. You should include in this submission the Vector3d class with the needed operators that are needed. This means that you should comb through the provided code to figure out how much of Vector3d needs to be implemented. You should also provide a test driver program that will perform example Vector3d operations like +, -, * (scalar and dot product), cross product, etc. For this first part of the assignment, you will be graded on the quality of the Vector3d class and the thoroughness of testing. 
+
+
+Include in your submission the code, output, and a report describing how you went about learning the language, any difficulties you faces and how  you overcame them. You should cite references that you were using to learn the language. Also make sure to clearly state who the team members were. Submit everything through Blackboard by the deadline posted. Late submissions will not be graded.
+

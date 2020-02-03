@@ -1,0 +1,32 @@
+class Vector3D:
+	def __init__(self, x = 0., y = 0., z = 0.)
+		self.x = x
+		self.y = y
+		self.z = z
+
+	def __mul__(self,number)
+		return Vector3D(self.x * number, self.y * number, self.z * number)
+	
+
+	def __add__(self, number)
+		return Vector3D(self.x + number.x, self.y + number.y + self.z + number.z)
+
+	def __sub__(self, number)
+		return self.__copy() + - number
+
+	def __crossproduct__(self, number)
+		return Vector3D(self.y * number.z- self.z * number.y, 
+					self.z*number.x - self.x*number.z,
+					self.z*number.y- self.y*number.x)
+
+	
+	def magnitude(self):
+		return (self.x**2 + self.y**2 + self.z**2)**(.5)
+
+	def normal(self):
+		return self.__copy() / self.magnitude()
+
+	def __dotProduct__(self, operand):
+		return  (self.x * operand.x) + \
+		        (self.y * operand.y) + \
+			(self.z * operand.z)
